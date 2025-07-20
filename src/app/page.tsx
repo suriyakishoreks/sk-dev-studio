@@ -1,5 +1,10 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import NextIcon from '../assets/next.svg';
+import FileIcon from '../assets/file.svg';
+import GlobeIcon from '../assets/globe.svg';
+import VercelIcon from '../assets/vercel.svg';
+import WindowIcon from '../assets/window.svg';
 
 export default function Home() {
   return (
@@ -7,7 +12,7 @@ export default function Home() {
       <main className={styles.main}>
         <Image
           className={styles.logo}
-          src="/next.svg"
+          src={NextIcon}
           alt="Next.js logo"
           width={180}
           height={38}
@@ -29,7 +34,7 @@ export default function Home() {
           >
             <Image
               className={styles.logo}
-              src="/vercel.svg"
+              src={VercelIcon}
               alt="Vercel logomark"
               width={20}
               height={20}
@@ -54,7 +59,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/file.svg"
+            src={FileIcon}
             alt="File icon"
             width={16}
             height={16}
@@ -68,7 +73,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/window.svg"
+            src={WindowIcon}
             alt="Window icon"
             width={16}
             height={16}
@@ -82,7 +87,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/globe.svg"
+            src={GlobeIcon}
             alt="Globe icon"
             width={16}
             height={16}
