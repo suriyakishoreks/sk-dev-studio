@@ -1,7 +1,7 @@
 {
   "name": "sk-dev-studio",
   "version": "0.1.0",
-  "homepage": "https://suriyakishoreks.github.io/sk-dev-studio/",
+  "homepage": "https://skstudio.dev",
   "private": true,
   "engines": {
     "node": "23.6.0",
@@ -13,7 +13,7 @@
     "start": "next start",
     "lint": "next lint",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build --nojekyll"
+    "deploy": "gh-pages -d build --nojekyll --cname skstudio.dev"
   },
   "dependencies": {
     "next": "15.4.2",

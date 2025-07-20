@@ -1,10 +1,7 @@
 import type { NextConfig } from "next";
 
-const BASE_PATH = '/sk-dev-studio';
-
 const nextConfig: NextConfig = {
   output: 'export',
-  basePath: BASE_PATH,
   images: {
     unoptimized: true,
   },
@@ -12,6 +9,3 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
-
-
-// --cname www.mywebsite.com
